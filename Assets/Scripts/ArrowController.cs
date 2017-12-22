@@ -5,6 +5,9 @@ using UnityEngine;
 public class ArrowController : MonoBehaviour {
 
 	public float bpm;
+
+	public int quadrant;
+
 	GameManager gameManager;
 
 	float rotationSpeed;
@@ -25,8 +28,9 @@ public class ArrowController : MonoBehaviour {
 		if(input){
 			gameManager.HitClosestSector (transform.eulerAngles.z);
 		}
-		if (lastAngle > transform.rotation.eulerAngles.z) {
-			
+		if (lastAngle > transform.rotation.eulerAngles.z) {//TODO check full rotation
+				
 		}
+		quadrant = (int)transform.eulerAngles.z / 90;
 	}
 }
