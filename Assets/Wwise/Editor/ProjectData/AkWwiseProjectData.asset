@@ -12,13 +12,55 @@ MonoBehaviour:
   m_Name: AkWwiseProjectData
   m_EditorClassIdentifier: 
   CurrentPluginConfig: 
-  EventWwu: []
-  AuxBusWwu: []
-  StateWwu: []
-  SwitchWwu: []
-  BankWwu: []
-  RtpcWwu: []
-  TriggerWwu: []
+  EventWwu:
+  - PhysicalPath: Events\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    Guid: '{9CA64FDE-8B29-422C-85EB-77323427D025}'
+    m_lastTimePsrt1: 285180800
+    m_lastTimePart2: -1999288112
+    List: []
+  AuxBusWwu:
+  - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    Guid: '{4911DA99-136A-4CB0-9C47-9A50B7978326}'
+    m_lastTimePsrt1: 285260804
+    m_lastTimePart2: -1999288112
+    List: []
+  StateWwu:
+  - PhysicalPath: States\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    Guid: '{593FD753-A4D0-4534-8CDD-9AD8A431B8C0}'
+    m_lastTimePsrt1: 285510819
+    m_lastTimePart2: -1999288112
+    List: []
+  SwitchWwu:
+  - PhysicalPath: Switches\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    Guid: '{10E79D20-8515-4E59-9816-B3A318A60AE4}'
+    m_lastTimePsrt1: 285530820
+    m_lastTimePart2: -1999288112
+    List: []
+  BankWwu:
+  - PhysicalPath: SoundBanks\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    Guid: '{E710BD4E-85EF-46F1-8A67-1E9D05B74DCF}'
+    m_lastTimePsrt1: 285450815
+    m_lastTimePart2: -1999288112
+    List: []
+  RtpcWwu:
+  - PhysicalPath: Game Parameters\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    Guid: '{054BF2FA-0520-4407-BF0C-AFD3905DF5C9}'
+    m_lastTimePsrt1: 285200801
+    m_lastTimePart2: -1999288112
+    List: []
+  TriggerWwu:
+  - PhysicalPath: Triggers\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    Guid: '{A4D7A009-4D23-4F09-9F07-7D73C44765CB}'
+    m_lastTimePsrt1: 285560822
+    m_lastTimePart2: -1999288112
+    List: []
   ExpandedItems: []
   m_lastPopulateTimePsrt1: 0
   m_lastPopulateTimePart2: 0
